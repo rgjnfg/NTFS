@@ -44,6 +44,7 @@
 `int fs_create(FileSystem *fs, const char *path, const char *data);`
 
 ## Параметры:
+
  • `FileSystem* fs` — файловая система.
  
  • `const char* path` — путь к файлу.
@@ -51,6 +52,7 @@
  • `const char* data` — содержимое файла.
 
 ## Возвращает:
+
  • 0 — при успешном создании.
  
  • -1 — при ошибке (например, недостаточно памяти).
